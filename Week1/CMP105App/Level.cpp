@@ -32,10 +32,10 @@ Level::Level(sf::RenderWindow* hwnd)
 		std::cout << "Error loading font\n";
 	}
 
-	text.setFont(font);
-	text.setString("Hello World");
-	text.setCharacterSize(24);
-	text.setFillColor(sf::Color::Red);
+	mousePosText.setFont(font);
+	mousePosText.setString("Hello World");
+	mousePosText.setCharacterSize(24);
+	mousePosText.setFillColor(sf::Color::Red);
 
 }
 
